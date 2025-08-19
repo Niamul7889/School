@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Touchstone School & College, Bogura</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #004080;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      height: 100px;
+    }
+    nav {
+      background: #0066cc;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: block;
+    }
+    nav a:hover {
+      background: #004080;
+    }
+    .hero {
+      background: url('https://source.unsplash.com/1200x400/?school,classroom') no-repeat center;
+      background-size: cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2em;
+      font-weight: bold;
+      text-shadow: 2px 2px 5px black;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #004080;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="স্কুল লোগো ১.jpg" alt="School Logo">
+    <h1>Touchstone School & College, Bogra</h1>
+    <p>Education for Excellence | Estd: 2022</p>
+  </header>
+
+  <nav>
+    <a href="#">হোম</a>
+    <a href="#">আমাদের সম্পর্কে</a>
+    <a href="#">ভর্তি তথ্য</a>
+    <a href="#">শিক্ষকবৃন্দ</a>
+    <a href="#">নোটিশ বোর্ড</a>
+    <a href="#">যোগাযোগ</a>
+  </nav>
+
+  <div class="hero">
+    Welcome to Touchstone School & College
+  </div>
+
+  <div class="container">
+    <div class="card">
+      <h2>আমাদের সম্পর্কে</h2>
+      <p>
+        টাচস্টোন স্কুল এ্যান্ড কলেজ, বগুড়া একটি মানসম্মত শিক্ষা প্রতিষ্ঠান।
+        ২০২২ সাল থেকে প্রতিষ্ঠানটি শিক্ষার্থীদের আধুনিক ও মানসম্পন্ন শিক্ষা প্রদান করে আসছে।
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>নোটিশ বোর্ড</h2>
+      <ul>
+        <li>📌 আগামী ৫ই আগস্ট সরকারি ছুটি উপলক্ষে স্কুল বন্ধ থাকবে।</li>
+        <li>📌 ১৫ই আগস্ট জাতীয় শোক দিবস পালন।</li>
+        <li>📌 ভর্তি কার্যক্রম চলছে...</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>যোগাযোগ</h2>
+      <p>
+        📍 ঠিকানা: টাচস্টোন স্কুল এ্যান্ড কলেজ, বগুড়া।<br>
+        📧 Email: <a href="mailto:touchstonebog22@gmail.com">touchstonebog22@gmail.com</a><br>
+        📞 মোবাইল: <a href="tel:01576555506">01576-555506</a><br>
+        🌐 Facebook: <a href="https://www.facebook.com/share/19jkDSStLU/" target="_blank">আমাদের ফেসবুক পেজ</a>
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Touchstone School & College, Bogura. All Rights Reserved.
+  </footer>
+</body>
+</html>
